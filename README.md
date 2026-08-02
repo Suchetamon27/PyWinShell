@@ -84,37 +84,37 @@ flowchart TD
 ```text
 PyWinShell/
 │
-├── .gitignore                   # Excludes Python cache, environments, & history files
-├── README.md                    # Repository documentation and architecture guide
-├── requirements.txt             # Third-party dependencies
-├── setup.py                     # Setuptools configuration for global CLI installation
+├── .gitignore                   
+├── README.md                    
+├── requirements.txt             
+├── setup.py                     
 │
-├── pywinshell/                  # Core Application Package
-│   ├── __init__.py              # Package initialization & version info
-│   ├── main.py                  # REPL loop, banner, and signal handler
-│   ├── prompt.py                # Dynamic multi-segment prompt formatter
-│   ├── lexer.py                 # Tokenizer for quotes, escapes, pipes, & redirection
-│   ├── parser.py                # AST parser building PipelineNode structures
-│   ├── executor.py              # Pipeline execution engine and stream manager
-│   ├── completion.py            # Autocompleter for paths, PATH, and commands
-│   ├── win32_utils.py           # Win32 API calls (IsUserAnAdmin, GetTickCount64, winreg)
+├── pywinshell/                  
+│   ├── __init__.py              
+│   ├── main.py                  
+│   ├── prompt.py                
+│   ├── lexer.py                 
+│   ├── parser.py             
+│   ├── executor.py              
+│   ├── completion.py            
+│   ├── win32_utils.py           
 │   │
-│   └── builtins/                # Built-in Shell Utilities
-│       ├── __init__.py          # Built-in command module exporter
-│       ├── base.py              # Abstract Base Class & command registry manager
-│       ├── filesystem.py        # cd, pwd, dir (Rich table), cat, mkdir
-│       ├── process.py           # task command (list, kill, tree, suspend, resume)
-│       ├── sysinfo.py           # sysinfo Neofetch-style system dashboard
-│       ├── registry.py          # reg query Windows Registry utility
-│       ├── env.py               # winenv environment variable manager
-│       ├── history.py           # history logger and screen clearing (cls/clear)
-│       └── alias.py             # Custom command alias manager (alias/unalias)
+│   └── builtins/                
+│       ├── __init__.py          
+│       ├── base.py              
+│       ├── filesystem.py        
+│       ├── process.py           
+│       ├── sysinfo.py          
+│       ├── registry.py          
+│       ├── env.py               
+│       ├── history.py           
+│       └── alias.py             
 │
-└── tests/                       # Test Suite
-    ├── __init__.py              # Test package initializer
-    ├── test_lexer.py            # Unit tests for tokenization
-    ├── test_parser.py           # Unit tests for AST parsing
-    └── test_builtins.py         # Unit tests for built-in commands
+└── tests/                       
+    ├── __init__.py              
+    ├── test_lexer.py            
+    ├── test_parser.py           
+    └── test_builtins.py         
 ```
 
 ---
