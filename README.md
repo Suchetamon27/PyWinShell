@@ -218,9 +218,11 @@ Developing **PyWinShell** provided hands-on experience with:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
+© 2026 Sucheta Mondal
 
 ---
+              Made with ❤️ by Sucheta Mondal
 
 <div align="center">
   <sub>Built for Windows Power Users and Python Developers.</sub>
