@@ -201,12 +201,13 @@ python -m unittest discover tests
 ```
 
 **Expected Output**
+<img width="1257" height="952" alt="image" src="https://github.com/user-attachments/assets/a873089e-bbb4-447d-9cf0-0460617b925e" />
 
 
 
 ---
 
-## 🎯 Engineering Highlights & Learnings
+## 🎯 Key Learnings
 
 Developing **PyWinShell** provided hands-on experience with:
 1. **Low-Level Win32 API Interop**: Querying Windows C-APIs (`ctypes.windll.shell32`, `GetTickCount64`) and inspecting Registry keys via `winreg`.
