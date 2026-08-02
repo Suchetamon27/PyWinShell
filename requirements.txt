@@ -1,0 +1,5 @@
+prompt-toolkit>=3.0.0
+rich>=13.0.0
+colorama>=0.4.6
+psutil>=5.9.0
+pywin32>=306; sys_platform == 'win32'
