@@ -1,0 +1,23 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE files
+.vscode/
+.idea/
+
+# History file created by PyWinShell
+.pywinshell_history
