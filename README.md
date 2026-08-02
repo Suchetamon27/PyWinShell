@@ -1,4 +1,4 @@
-# 🐍PyWinShell
+# PyWinShell🐍🪟
 
 <div align="center">
 
