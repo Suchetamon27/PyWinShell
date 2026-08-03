@@ -214,7 +214,7 @@ Developing **PyWinShell** provided hands-on experience with:
 2. **Compiler & Lexer Primitives**: Building a tokenizer capable of handling quoted arguments, escape codes, pipe symbols (`|`), and file redirection operators (`>`, `>>`, `<`).
 3. **Subprocess Management**: Managing stdin/stdout streams across multi-stage process chains using Python `subprocess.Popen`.
 4. **Terminal User Experience**: Crafting dynamic REPL interfaces with tab completion, history persistence, and rich ANSI visual rendering.
-
+ 
 ---
 
 ## 📄 License
